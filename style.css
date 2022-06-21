@@ -3,9 +3,17 @@ body{
     background-image: linear-gradient(to top left, red, orange, yellow);
     background-repeat: no-repeat;
     text-align: center;
+    height: 100%;
 }
 button{
     background-color: rgb(242, 255, 53);
-    
+    border-radius: 10px;
+    width: 25%;
+    padding: 17px;
+    font-size: 16px;
+    font-weight: bolder;
 
+}
+#s-btn{
+    background-color: rgb(90, 247, 51);
 }
