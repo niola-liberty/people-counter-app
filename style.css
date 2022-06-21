@@ -1,0 +1,11 @@
+
+body{
+    background-image: linear-gradient(to top left, red, orange, yellow);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+button{
+    background-color: rgb(242, 255, 53);
+    
+
+}
