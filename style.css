@@ -12,8 +12,27 @@ button{
     padding: 17px;
     font-size: 16px;
     font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 
 }
 #s-btn{
     background-color: rgb(90, 247, 51);
+}
+#welcome{
+    font-size: 40px;
+    margin-top: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 450px) {
+    button{
+        width: 40%;
+        font-size: 12.5px;
+    }
+    #welcome{
+        font-size: 32.3px;
+    }
+    
 }
