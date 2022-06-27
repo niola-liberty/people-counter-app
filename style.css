@@ -28,10 +28,10 @@ button{
 @media screen and (max-width: 450px) {
     body{
           height: 800px;
-}
-.wrk{
-    padding-top: 35%;
-}
+    }
+    .wrk{
+        padding-top: 35%;
+    }
     button{
         width: 40%;
         font-size: 12.5px;
