@@ -3,11 +3,7 @@ body{
     background-image: linear-gradient(to top left, red, orange, yellow);
     background-repeat: no-repeat;
     text-align: center;
-    height: 800px;
-}
-.wrk{
-    padding-top: 50%;
-}
+  
 button{
     background-color: rgb(242, 255, 53);
     border-radius: 10px;
@@ -30,6 +26,12 @@ button{
 }
 
 @media screen and (max-width: 450px) {
+    body{
+          height: 800px;
+}
+.wrk{
+    padding-top: 35%;
+}
     button{
         width: 40%;
         font-size: 12.5px;
@@ -37,6 +39,7 @@ button{
     #welcome{
         font-size: 32.3px;
     }
+    
 
     
 }
